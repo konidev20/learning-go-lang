@@ -19,7 +19,7 @@ func main() {
 
 	a, b := 10, 20
 	fmt.Println("a,b =", a, ",", b)
-	a, b := swap(a, b)
+	a, b = swap(a, b)
 	fmt.Println("a,b =", a, ",", b)
 }
 
