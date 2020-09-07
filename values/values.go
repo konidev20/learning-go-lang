@@ -16,4 +16,14 @@ func main() {
 	fmt.Println(true && false)
 	fmt.Println(true || false)
 	fmt.Println(!true)
+
+	a, b := 10, 20
+	fmt.Println("a,b =", a, ",", b)
+	a, b := swap(a, b)
+	fmt.Println("a,b =", a, ",", b)
+}
+
+//how to return multiple values in Go
+func swap(a int, b int) (int, int) {
+	return b, a
 }
