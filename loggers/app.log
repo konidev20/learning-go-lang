@@ -1,0 +1,2 @@
+2024-04-28T23:35:59+05:30	info	This is an info message	{"key": "value"}
+2024-04-28T23:35:59+05:30	error	This is an error message	{"code": 500}
